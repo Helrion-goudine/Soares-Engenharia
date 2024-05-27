@@ -1,0 +1,98 @@
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg: #3673E4;
+    --border:.1rem solid #3673E4;
+}
+
+.introducao .conent h3{
+    font-size: 10rem;
+    color: #fff;
+
+}
+
+.contatos{
+    width: 100%;
+    display: flex;
+}
+
+.itens-2{
+    flex-direction: column;
+}
+
+.contact{
+    color: #13131a;
+    background-color: #fff;
+}
+
+.blue{
+    color: #ffffff;
+}
+
+.text{
+    border: var(--border);
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+.contact{
+    margin: 0 auto; 
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; /
+}
+
+.content{
+ 
+    margin-left: 50px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.content h3{
+    font-size: 5.5rem;
+    font-weight: 600;
+}
+
+.content .blue{
+    color: #392ddd;
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 1rem; 
+    text-decoration: none;
+  }
+  
+.content .itens p{
+    color: #000000;
+    font-size: 15px;
+    margin-bottom: 1px;
+    text-decoration: none;
+  }
+  
+.content .itens{
+    
+      display: flex;
+      gap: 3px;
+  }
+
+  @media (max-width:991px){
+
+    .row {
+        flex-direction: column-reverse;
+    }
+    
+    .contact img {
+      margin-bottom: 2.4rem;
+    }
+
+
+}
+
+@media (max-width:768px){
+
+    .contact{
+        flex-direction: column;
+    }
+
+}
